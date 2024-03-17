@@ -10,3 +10,7 @@ Pre-requisites:
 Set up the pushover client by running:
 
 pushover-cli config setup
+
+Note: IF you are going to run in cron as root, you need to use:
+
+sudo pushover-cli config setup
